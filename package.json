@@ -1,0 +1,32 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "crud MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app1/src/index.js",
+    "dev": "nodemon app1/src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "author": "devmiguelopz",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.7.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.14",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^2.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
